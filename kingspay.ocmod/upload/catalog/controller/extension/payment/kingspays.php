@@ -21,7 +21,7 @@ class ControllerExtensionPaymentKingspays extends Controller {
   			'merchant_callback_url'  => $this->url->link('extension/payment/kingspays/callback'),
         'amount'                 => $order_info['total'],
         'currency'               => $order_info['currency_code'],
-        'description'            => "Test payment",
+        'description'            => "kingspay payment solution",
   			'payment_type'           => $payment,
         'product_id'             => $order_info['order_id'],
         'payment_type'           => 'kingspays',
@@ -62,7 +62,7 @@ class ControllerExtensionPaymentKingspays extends Controller {
       (
           "amount" => $amount * 100,
           "currency" => $order_info['currency_code'],
-          "description" => "Test Payment",
+          "description" => "kingspay payment solution",
           "merchant_callback_url" => $this->url->link('extension/payment/kingspays/callback'),
           "metadata" => array("product_id"=>$order_info['order_id']),
           "payment_type" => $payment,

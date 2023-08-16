@@ -1,15 +1,4 @@
 <?php
-/**
- * ------------------------------------------------------- *
- * File         : kingspays.php.v.1.0
- * Created for  : OpenCart Kingspay payment solution.
- * @Author      : Segun Aruleba
- * @Email       : https://kingsch.at/h/support.html
- * @Kingschat   : +233261562716
- * Date         : 18/06/21
- * Time         : 10:04 AM
- * ------------------------------------------------------- *
- */
 class ControllerExtensionPaymentKingspays extends Controller {
 	private $error = array();
     private $currencies = array('GBP', 'NGN', 'USD', 'CHF','SGD', 'SEK', 'DKK', 'NOK','ZAR', 'JPY', 'CAD', 'AUD', 'EUR', 'NZD', 'KRW', 'THB');
